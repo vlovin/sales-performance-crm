@@ -81,6 +81,9 @@ This solution provides a centralized sales workflow and executive reporting laye
 
 Lead → Evaluated Lead → Opportunity → Quote → Approved Quote → Won Deal → Order
 
+## Business Process Diagram
+
+![Business Process](diagrams/business-process-diagram.png)
 ---
 
 ## Data Model
