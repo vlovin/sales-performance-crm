@@ -41,7 +41,9 @@ This solution provides a centralized sales workflow and executive reporting laye
 - pipeline analytics
 - conversion tracking
 - revenue monitoring
-
+  
+## Architecture Diagram
+![Architecture](diagrams/architecture-diagram.png)
 ---
 
 ## Core Features
