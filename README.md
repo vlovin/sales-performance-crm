@@ -98,6 +98,10 @@ Main entities:
 - Quote
 - Order
 - Salesperson
+  
+## Data Model Diagram
+
+![Data Model](diagrams/model_diagram.png)
 
 ---
 
