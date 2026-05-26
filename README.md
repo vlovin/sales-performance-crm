@@ -133,13 +133,11 @@ power-bi/           → Power BI dashboard files
 
 ![Lead Screen](screenshots/canvas/lead-screen.png)
 
----
 
 ### Opportunity Management
 
 ![Opportunity Screen](screenshots/canvas/opportunity-screen.png)
 
----
 
 ### Order Management
 
