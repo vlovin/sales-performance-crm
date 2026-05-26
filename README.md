@@ -127,12 +127,27 @@ power-bi/           → Power BI dashboard files
 
 ---
 
-## Screenshots
+## Power Apps Screenshots
 
-### Power Apps
-*(to be added)*
+### Lead Management
 
-### Power BI Dashboard
+![Lead Screen](screenshots/canvas/lead-screen.png)
+
+---
+
+### Opportunity Management
+
+![Opportunity Screen](screenshots/canvas/opportunity-screen.png)
+
+---
+
+### Order Management
+
+![Order Screen](screenshots/canvas/order-screen.png)
+
+---
+
+## Power BI Dashboard Screenshots
 *(to be added)*
 
 ---
