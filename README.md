@@ -177,6 +177,13 @@ The Order module represents the final operational stage of the sales lifecycle a
 ![Order Screen](screenshots/canvas/order-screen.png)
 
 ---
+## Power Apps Solution Export
+
+The exported Power Apps solution is available in the `power-apps/` folder.
+
+The solution package includes the Canvas App and Dataverse components used to support the CRM workflow, including tables, relationships, choices and application logic.
+
+> Note: The solution is exported as an unmanaged solution for portfolio and development review purposes. Demo data is not included in the solution package.
 
 ## Power BI Dashboard
 
