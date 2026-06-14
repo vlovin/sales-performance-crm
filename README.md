@@ -189,7 +189,7 @@ The Power BI reporting layer provides executive visibility into:
 
 ### Dashboard Preview
 
-![Power BI Dashboard](screenshots/powerbi/db sales performance.png)
+![Power BI Dashboard](screenshots/powerbi/sales-dashboard.png)
 
 ---
 
