@@ -1,33 +1,36 @@
 # Sales Performance CRM
 
-End-to-end Sales CRM and analytics solution built with Power Platform.
+Sales CRM solution built with Microsoft Power Platform.
 
 ---
 
 ## Overview
 
-This project simulates a complete B2B sales lifecycle management system built using:
+This project demonstrates a complete sales management process built using:
 
 - Power Apps (Canvas App)
 - Dataverse
 - Power BI
 
-The solution covers the entire sales process:
+The solution follows the full sales lifecycle:
 
 Lead → Qualification → Opportunity → Quote → Order
 
-The project combines operational CRM workflows with analytical reporting to provide full visibility into sales performance and pipeline progression.
+It combines operational CRM processes with reporting and analytics to support sales pipeline management and performance monitoring.
 
 ---
 
-## Solution Highlights
+## Project Objectives
 
-- full B2B sales lifecycle simulation
-- integrated operational CRM and analytics
-- relational Dataverse data model
-- multi-stage opportunity management
-- quote approval and order generation process
-- executive Power BI dashboard
+The goal of this project was to design and build a sales management solution using Microsoft Power Platform.
+
+The solution demonstrates:
+
+- business process design
+- Dataverse data modeling
+- Power Apps application development
+- Power BI reporting and analytics
+- end-to-end sales process management
 
 ---
 
@@ -41,22 +44,24 @@ Organizations often struggle with:
 - analyzing sales performance
 - connecting operational CRM data with analytics
 
-This solution provides a centralized sales workflow and executive reporting layer.
+This solution provides a centralized sales workflow supported by reporting and performance dashboards.
 
 ---
 
 ## Solution Architecture
 
 ### Operational Layer
-- Power Apps Canvas App for sales operations
-- Dataverse as the central relational data platform
+
+- Power Apps Canvas App
+- Dataverse relational data model
 
 ### Analytics Layer
-- Power BI executive dashboard
-- pipeline analytics
+
+- Power BI dashboard
+- pipeline reporting
 - conversion tracking
-- revenue monitoring
-- salesperson performance analysis
+- revenue analysis
+- salesperson performance monitoring
 
 ---
 
@@ -69,41 +74,45 @@ This solution provides a centralized sales workflow and executive reporting laye
 ## Core Features
 
 ### Lead Management
-- lead creation and qualification
-- account and contact assignment
-- lead evaluation process
+
+- lead creation
+- qualification and disqualification process
+- account assignment
 - salesperson ownership
 
 ### Opportunity Management
-- opportunity lifecycle tracking
-- stage progression management
-- sales activity monitoring
+
+- opportunity lifecycle management
+- sales stage tracking
+- activity management
 - revenue and probability tracking
 
 ### Quote Management
+
 - multiple quotes per opportunity
 - quote approval process
-- approved quote validation
-- negotiation support
+- approved quote tracking
 
 ### Order Management
-- order creation from approved quote
-- operational delivery tracking
-- end-to-end sales flow transition
+
+- order creation from approved quotes
+- order status tracking
+- sales process completion
 
 ### Power BI Analytics
-- sales conversion funnel
-- revenue tracking
-- salesperson performance analytics
+
+- sales funnel reporting
+- revenue analysis
+- salesperson performance
 - lead source analysis
 - pipeline monitoring
-- executive KPI reporting
+- KPI reporting
 
 ---
 
 ## Business Process
 
-The CRM workflow follows a structured B2B sales lifecycle:
+The CRM workflow follows a structured B2B sales process:
 
 Lead → Evaluation → Qualification → Opportunity → Quote → Negotiation → Won Deal → Order
 
@@ -128,7 +137,7 @@ Main entities:
 - Order
 - Salesperson
 
-The system uses a relational Dataverse model to support the operational CRM workflow and reporting layer.
+The entities are connected through Dataverse relationships to support the complete sales process.
 
 ---
 
@@ -138,21 +147,11 @@ The system uses a relational Dataverse model to support the operational CRM work
 
 ---
 
-## Key Business Outcomes
-
-- centralized sales lifecycle management
-- improved pipeline visibility
-- standardized quote approval process
-- executive sales performance reporting
-- end-to-end revenue tracking
-
----
-
 ## Power Apps Screenshots
 
 ### Lead Management
 
-The Lead module supports initial sales intake, qualification, and account assignment.
+The Lead module supports lead registration, qualification and assignment.
 
 ![Lead Screen](screenshots/canvas/lead-screen.png)
 
@@ -160,11 +159,12 @@ The Lead module supports initial sales intake, qualification, and account assign
 
 ### Opportunity Management
 
-The Opportunity screen centralizes:
-- sales activities
-- quote lifecycle
-- opportunity progression
-- deal closure actions
+The Opportunity module supports:
+
+- opportunity management
+- activity tracking
+- quote management
+- deal closure
 
 ![Opportunity Screen](screenshots/canvas/opportunity-screen.png)
 
@@ -172,27 +172,37 @@ The Opportunity screen centralizes:
 
 ### Order Management
 
-The Order module represents the final operational stage of the sales lifecycle after successful quote approval and opportunity closure.
+The Order module represents the final stage of the sales process after quote approval and opportunity closure.
 
 ![Order Screen](screenshots/canvas/order-screen.png)
 
 ---
+
 ## Power Apps Solution Export
 
 The exported Power Apps solution is available in the `power-apps/` folder.
 
-The solution package includes the Canvas App and Dataverse components used to support the CRM workflow, including tables, relationships, choices and application logic.
+The package contains:
 
-> Note: The solution is exported as an unmanaged solution for portfolio and development review purposes. Demo data is not included in the solution package.
+- Canvas App
+- Dataverse tables
+- relationships
+- choice columns
+- application logic
+
+> Note: The solution is exported as an unmanaged solution for portfolio and development purposes.
+
+---
 
 ## Power BI Dashboard
 
-The Power BI reporting layer provides executive visibility into:
-- pipeline health
+The Power BI reporting layer provides visibility into:
+
 - lead conversion
+- sales funnel performance
 - revenue trends
 - salesperson performance
-- sales funnel effectiveness
+- pipeline health
 
 ### Dashboard Preview
 
@@ -219,14 +229,13 @@ power-bi/           → Power BI dashboard files
 - Power BI
 - Power Fx
 - DAX
-- Dataverse Relational Modeling
 
 ---
 
 ## Future Improvements
 
 - Power Automate approval workflows
-- role-based security model
-- SLA and activity monitoring
-- forecast and revenue projections
+- role-based security
+- SLA monitoring
+- forecasting dashboard
 - advanced sales KPIs
